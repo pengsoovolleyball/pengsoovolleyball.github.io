@@ -1,0 +1,21 @@
+{
+  "name": "펭수 배구",
+  "short_name": "펭수 배구",
+  "icons": [
+    {
+      "src": "../resources/assets/images/IDI_PIKAICON-1_gap_filled_192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "../resources/assets/images/IDI_PIKAICON-1_gap_filled_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./",
+  "scope": "../",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF"
+}
