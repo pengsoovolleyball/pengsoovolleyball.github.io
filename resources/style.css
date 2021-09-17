@@ -194,8 +194,7 @@ span.check {
 }
 .fade-in-box.hidden,
 #menu-bar.hidden,
-span.hidden,
-.screenshot.hidden {
+span.hidden {
   display: none;
 }
 #about-box-head {
