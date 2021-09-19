@@ -41,6 +41,18 @@ html {
 body {
   color: #232629;
 }
+a,
+a:link,
+a:visited {
+  color: #0074cc;
+  text-decoration: none;
+}
+a:hover {
+  color: #0a95ff;
+}
+a:active {
+  color: #0a95ff;
+}
 #flex-container,
 #update-history-container {
   position: relative;
@@ -328,17 +340,4 @@ div.limit-width {
 div.indent-minus {
   text-indent: calc(-5.4 * var(--font-size));
   margin-left: calc(5.4 * var(--font-size));
-}
-a {
-  color: #0074cc;
-  text-decoration: none;
-}
-a:visited {
-  color: #0063bf;
-}
-a:hover {
-  color: #0a95ff;
-}
-a:active {
-  color: #0a95ff;
 }
