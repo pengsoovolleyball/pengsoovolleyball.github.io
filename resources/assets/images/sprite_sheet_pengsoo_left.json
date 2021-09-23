@@ -1,6 +1,6 @@
 {"frames": {
 
-"copyright.png":
+"copyright_left.png":
 {
 	"frame": {"x":317,"y":1034,"w":912,"h":80},
 	"rotated": false,
@@ -255,6 +255,6 @@
 	"format": "RGBA8888",
 	"size": {"w":1808,"h":1452},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:afc3cf4ca578f709a0325d915e1fb408:bef7117db8f344e1898896f0b576eeba:9459efeebd0f34f2a36dde5b42d3dfc4$"
+	"smartupdate": "$TexturePacker:SmartUpdate:d9a1eed1ff95de1a1946f6dcb67033d6:bef7117db8f344e1898896f0b576eeba:9459efeebd0f34f2a36dde5b42d3dfc4$"
 }
 }
