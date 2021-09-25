@@ -341,3 +341,19 @@ div.indent-minus {
   text-indent: calc(-5.4 * var(--font-size));
   margin-left: calc(5.4 * var(--font-size));
 }
+button.glow {
+  box-shadow: 0 0 5px calc(var(--font-size) / 6) #52aaff;
+  animation-name: blinking-glow;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes blinking-glow {
+  0% {
+    box-shadow: 0 0 5px calc(var(--font-size) / 6) #52aaff;
+  }
+  100% {
+    box-shadow: 0 0 5px calc(1.5 * var(--font-size) / 6) #52aaff;
+  }
+}
